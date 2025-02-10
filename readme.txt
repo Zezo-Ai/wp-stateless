@@ -6,7 +6,7 @@ License: GPLv2 or later
 Requires PHP: 8.0
 Requires at least: 5.0
 Tested up to: 6.6.2
-Stable tag: 4.1.2
+Stable tag: 4.1.3-RC1
 
 Upload and serve your WordPress media files from Google Cloud Storage.
 
@@ -134,6 +134,13 @@ Before upgrading to WP-Stateless 3.2.0, please, make sure you use PHP 7.2 or abo
 Before upgrading to WP-Stateless 3.0, please, make sure you tested it on your development environment.
 
 == Changelog ==
+= 4.1.3-RC1 =
+* COMPATIBILITY - PolyLang Compatibility replaced with [WP-Stateless – Polylang Pro Addon](https://wordpress.org/plugins/wp-stateless-polylang-pro-addon/).
+* ENHANCEMENT - updated `firebase/php-jwt` library from from 6.10.1 to 6.10.2.
+* ENHANCEMENT - updated `wpmetabox/meta-box` library from from 5.10.1 to 5.10.2.
+* ENHANCEMENT - Updated Client library for Google APIs from 2.17.0 to 2.18.2.
+* FIX - apply `Cache Control` setting to all files (previously applied only to images).
+
 = 4.1.2 =
 * ENHANCEMENT - added `REST API Endpoint` setting, which useful when WordPress dashboard and frontend website utilize different domain names.
 * ENHANCEMENT - extended `Status Info` with the information to help diagnose REST API or AJAX issues.
