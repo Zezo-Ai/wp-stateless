@@ -136,10 +136,10 @@ Before upgrading to WP-Stateless 3.0, please, make sure you tested it on your de
 == Changelog ==
 = 4.1.3-RC1 =
 * COMPATIBILITY - PolyLang Compatibility replaced with [WP-Stateless – Polylang Pro Addon](https://wordpress.org/plugins/wp-stateless-polylang-pro-addon/).
-* ENHANCEMENT - updated `firebase/php-jwt` library from from 6.10.1 to 6.10.2.
-* ENHANCEMENT - updated `wpmetabox/meta-box` library from from 5.10.1 to 5.10.2.
+* ENHANCEMENT - updated `firebase/php-jwt` library from 6.10.1 to 6.10.2.
+* ENHANCEMENT - updated `wpmetabox/meta-box` library from 5.10.1 to 5.10.2.
 * ENHANCEMENT - Updated Client library for Google APIs from 2.17.0 to 2.18.2.
-* FIX - apply `Cache Control` setting to all files (previously applied only to images).
+* FIX - apply the `Cache Control` setting to all files (previously applied only to images).
 
 = 4.1.2 =
 * ENHANCEMENT - added `REST API Endpoint` setting, which useful when WordPress dashboard and frontend website utilize different domain names.
