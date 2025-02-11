@@ -94,7 +94,6 @@ class ComposerStaticInitc59d002476a452800baaf79c430753cb
         'wpCloud\\StatelessMedia\\Logger' => __DIR__ . '/../..' . '/lib/classes/class-logger.php',
         'wpCloud\\StatelessMedia\\Migrator' => __DIR__ . '/../..' . '/lib/classes/class-migrator.php',
         'wpCloud\\StatelessMedia\\Module' => __DIR__ . '/../..' . '/lib/classes/class-module.php',
-        'wpCloud\\StatelessMedia\\Polylang' => __DIR__ . '/../..' . '/lib/classes/compatibility/polylang-pro.php',
         'wpCloud\\StatelessMedia\\Settings' => __DIR__ . '/../..' . '/lib/classes/class-settings.php',
         'wpCloud\\StatelessMedia\\ShortPixel' => __DIR__ . '/../..' . '/lib/classes/compatibility/shortpixel.php',
         'wpCloud\\StatelessMedia\\SimpleLocalAvatars' => __DIR__ . '/../..' . '/lib/classes/compatibility/simple-local-avatars.php',
