@@ -344,58 +344,24 @@
             "install-path": "../udx/lib-wp-bootstrap"
         },
         {
-            "name": "wpmetabox/meta-box",
-            "version": "5.10.2",
-            "version_normalized": "5.10.2.0",
+            "name": "wpackagist-plugin/meta-box",
+            "version": "5.10.7",
+            "version_normalized": "5.10.7.0",
             "source": {
-                "type": "git",
-                "url": "https://github.com/wpmetabox/meta-box.git",
-                "reference": "c28a96abe84cff63e3cec0e6c9d525602212c998"
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/meta-box/",
+                "reference": "tags/5.10.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpmetabox/meta-box/zipball/c28a96abe84cff63e3cec0e6c9d525602212c998",
-                "reference": "c28a96abe84cff63e3cec0e6c9d525602212c998",
-                "shasum": ""
+                "url": "https://downloads.wordpress.org/plugin/meta-box.5.10.7.zip"
             },
-            "require-dev": {
-                "phpunit/phpunit": "^11.3"
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
             },
-            "time": "2024-09-26T09:55:59+00:00",
             "type": "wordpress-plugin",
             "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "MetaBox\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Tran Ngoc Tuan Anh",
-                    "email": "anhtnt@elightup.com",
-                    "homepage": "https://metabox.io",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A powerful, professional developer toolkit to create custom meta boxes and custom fields for WordPress websites.",
-            "homepage": "https://metabox.io",
-            "keywords": [
-                "custom-field",
-                "meta-box",
-                "select2",
-                "ui",
-                "wordpress",
-                "wordpress-plugin",
-                "wp-admin"
-            ],
-            "support": {
-                "issues": "https://github.com/wpmetabox/meta-box/issues",
-                "source": "https://github.com/wpmetabox/meta-box/tree/5.10.2"
-            },
+            "homepage": "https://wordpress.org/plugins/meta-box/",
             "install-path": "../wpmetabox/meta-box"
         }
     ],
