@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15618c6fa8c965afa9466b50cfd54421",
+    "content-hash": "13cd83cdebf4ee828cde231007ebdc17",
     "packages": [
         {
             "name": "ccampbell/chromephp",
@@ -339,56 +339,22 @@
             ]
         },
         {
-            "name": "wpmetabox/meta-box",
-            "version": "5.10.2",
+            "name": "wpackagist-plugin/meta-box",
+            "version": "5.10.7",
             "source": {
-                "type": "git",
-                "url": "https://github.com/wpmetabox/meta-box.git",
-                "reference": "c28a96abe84cff63e3cec0e6c9d525602212c998"
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/meta-box/",
+                "reference": "tags/5.10.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpmetabox/meta-box/zipball/c28a96abe84cff63e3cec0e6c9d525602212c998",
-                "reference": "c28a96abe84cff63e3cec0e6c9d525602212c998",
-                "shasum": ""
+                "url": "https://downloads.wordpress.org/plugin/meta-box.5.10.7.zip"
             },
-            "require-dev": {
-                "phpunit/phpunit": "^11.3"
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "autoload": {
-                "psr-4": {
-                    "MetaBox\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Tran Ngoc Tuan Anh",
-                    "email": "anhtnt@elightup.com",
-                    "homepage": "https://metabox.io",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A powerful, professional developer toolkit to create custom meta boxes and custom fields for WordPress websites.",
-            "homepage": "https://metabox.io",
-            "keywords": [
-                "custom-field",
-                "meta-box",
-                "select2",
-                "ui",
-                "wordpress",
-                "wordpress-plugin",
-                "wp-admin"
-            ],
-            "support": {
-                "issues": "https://github.com/wpmetabox/meta-box/issues",
-                "source": "https://github.com/wpmetabox/meta-box/tree/5.10.2"
-            },
-            "time": "2024-09-26T09:55:59+00:00"
+            "homepage": "https://wordpress.org/plugins/meta-box/"
         }
     ],
     "packages-dev": [

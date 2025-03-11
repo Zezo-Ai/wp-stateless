@@ -7,10 +7,6 @@ namespace Composer\Autoload;
 class ComposerStaticInitc59d002476a452800baaf79c430753cb
 {
     public static $prefixLengthsPsr4 = array (
-        'M' => 
-        array (
-            'MetaBox\\' => 8,
-        ),
         'F' => 
         array (
             'Firebase\\JWT\\' => 13,
@@ -22,10 +18,6 @@ class ComposerStaticInitc59d002476a452800baaf79c430753cb
     );
 
     public static $prefixDirsPsr4 = array (
-        'MetaBox\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/wpmetabox/meta-box/src',
-        ),
         'Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
