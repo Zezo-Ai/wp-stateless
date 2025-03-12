@@ -143,7 +143,7 @@ return [
     'addon_file'      => 'wp-stateless-buddypress-addon/wp-stateless-buddypress-addon.php',
     'icon'            => 'https://ps.w.org/buddypress/assets/icon.svg',
     'repo'            => 'udx/wp-stateless-buddypress-addon',
-    'wp'              => 'https://wordpress.org/support/plugin/wp-stateless-buddypress-addon/',
+    'wp'              => 'https://wordpress.org/plugin/wp-stateless-buddypress-addon/',
     'hubspot_id'      => '151478250924',
   ],
 
