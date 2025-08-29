@@ -1,4 +1,4 @@
-#### 4.1.4
+#### 4.2
 * ENHANCEMENT - Updated Client library for Google APIs from 2.18.2 to 2.18.3.
 * ENHANCEMENT - updated `firebase/php-jwt` library from  6.10.2 to 6.11.1.
 * ENHANCEMENT - updated `wpmetabox/meta-box` library from 5.10.1 to 5.10.11.

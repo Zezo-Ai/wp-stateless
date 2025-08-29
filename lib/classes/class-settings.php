@@ -752,22 +752,19 @@ namespace wpCloud\StatelessMedia {
 
         $documentation_url = sprintf(
           '<a href="%s" target="_blank">%s</a>',
-          $this->bootstrap->get_docs_page_url('docs/manual-setup/'),
-          __('Setup Manual', ud_get_stateless_media()->domain),
-          'Documentation',
+          $this->bootstrap->get_docs_page_url('/setup/'),
+          __('Refer to the setup manual', ud_get_stateless_media()->domain),
         );
 
         $this->bootstrap->errors->add([
           'title' => __('WP-Stateless: Finish Setup', ud_get_stateless_media()->domain),
           'message' => sprintf(
             __(
-              'WP-Stateless has been successfully activated. For guidance on completing the setup, please refer to the %s.',
+              'WP-Stateless has been successfully activated. %s for guidance on completing the setup.',
               ud_get_stateless_media()->domain,
             ),
             $documentation_url,
           ),
-          // 'button' => __('View Manuas', ud_get_stateless_media()->domain),
-          // 'button_link' => $this->bootstrap->get_docs_page_url('docs/manual-setup/'),
           'key' => self::SETUP_MESSAGE_KEY,
         ], 'message');
       }
