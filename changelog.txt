@@ -1,4 +1,11 @@
 == Changelog ==
+= 4.2.1 =
+* **WP-Stateless 4.2.1 requires PHP 8.1 or higher, in accordance with the requirements of the official Google API PHP Client Library.**
+* ENHANCEMENT - Updated Client library for Google APIs from 2.18.3 to 2.18.4.
+* ENHANCEMENT - updated `wpmetabox/meta-box` library from 5.10.11 to 5.10.15.
+* FIX - correctly loads text domain to prevent PHP notices.
+* FIX - `udx/lib-ud-api-client` package correctly loads text domain to prevent PHP notices.
+
 = 4.2.0 =
 * ENHANCEMENT - Updated Client library for Google APIs from 2.18.2 to 2.18.3.
 * ENHANCEMENT - updated `firebase/php-jwt` library from  6.10.2 to 6.11.1.
