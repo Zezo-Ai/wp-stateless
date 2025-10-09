@@ -421,7 +421,7 @@ namespace wpCloud\StatelessMedia {
        * @return StorageClient
        * @throws \Exception
        */
-      public function init_gs_client(callable $httpHandler = null) {
+      public function init_gs_client(?callable $httpHandler = null) {
         // May be Loading Google SDK....
         if (!class_exists('HttpHandlerFactory')) {
           include_once(ud_get_stateless_media()->path('lib/Google/vendor/autoload.php', 'dir'));
