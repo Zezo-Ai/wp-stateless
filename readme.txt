@@ -3,7 +3,7 @@ Contributors: usability_dynamics, andypotanin, ideric, planvova, obolgun
 Donate link: https://udx.io
 Tags: google cloud, google cloud storage, cdn, uploads, backup
 License: GPLv2 or later
-Requires PHP: 8.1
+Requires PHP: 8.0
 Requires at least: 5.0
 Tested up to: 6.8
 Stable tag: 4.2.1
@@ -87,7 +87,7 @@ For a more detailed installation and setup walkthrough, please see the [manual s
 
 = What are the minimum server requirements for this plugin? =
 
-Beyond the [official WordPress minimum requirements](https://wordpress.org/about/requirements/), WP-Stateless requires a minimum PHP version of 8.1 or higher and OpenSSL to be enabled.
+Beyond the [official WordPress minimum requirements](https://wordpress.org/about/requirements/), WP-Stateless requires a minimum PHP version of 8.0 or higher and OpenSSL to be enabled.
 
 = What wp-config constants are supported? =
 
@@ -136,8 +136,6 @@ Before upgrading to WP-Stateless 3.0, please, make sure you tested it on your de
 
 == Changelog ==
 = 4.2.1 =
-* **WP-Stateless 4.2.1 requires PHP 8.1 or higher, in accordance with the requirements of the official Google API PHP Client Library.**
-* ENHANCEMENT - Updated Client library for Google APIs from 2.18.3 to 2.18.4.
 * ENHANCEMENT - updated `wpmetabox/meta-box` library from 5.10.11 to 5.10.15.
 * FIX - correctly loads text domain to prevent PHP notices.
 * FIX - `udx/lib-ud-api-client` package correctly loads text domain to prevent PHP notices.
