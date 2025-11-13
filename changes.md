@@ -1,4 +1,4 @@
-#### 4.2.2
+#### 4.3.0
 * ENHANCEMENT - update dependencies for Google APIs Client Library.
 * COMPATIBILITY - Simple Local Avatars Compatibility replaced with [WP-Stateless - Simple Local Avatars Addon](https://wordpress.org/plugins/wp-stateless-simple-local-avatars-addon/).
 

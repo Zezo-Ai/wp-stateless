@@ -6,7 +6,7 @@ License: GPLv2 or later
 Requires PHP: 8.0
 Requires at least: 5.0
 Tested up to: 6.8
-Stable tag: 4.2.2
+Stable tag: 4.3.0
 
 Upload and serve your WordPress media files from Google Cloud Storage.
 
@@ -136,7 +136,7 @@ Before upgrading to WP-Stateless 3.2.0, please, make sure you use PHP 7.2 or abo
 Before upgrading to WP-Stateless 3.0, please, make sure you tested it on your development environment.
 
 == Changelog ==
-= 4.2.2 =
+= 4.3.0 =
 * ENHANCEMENT - update dependencies for Google APIs Client Library.
 * COMPATIBILITY - Simple Local Avatars Compatibility replaced with [WP-Stateless - Simple Local Avatars Addon](https://wordpress.org/plugins/wp-stateless-simple-local-avatars-addon/).
 
