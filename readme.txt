@@ -138,7 +138,7 @@ Before upgrading to WP-Stateless 3.0, please, make sure you tested it on your de
 == Changelog ==
 = 4.4.1 - 2026-01-16 =
 * COMPATIBILITY - WooCommerce Extra Product Options Compatibility replaced with [WP-Stateless – WooCommerce Extra Product Options Addon](https://wordpress.org/plugins/wp-stateless-woocommerce-extra-product-options-addon/).
-* FIX - resolve critical errors with `firebase/php-jwt` library if AUTH_SALT is not set or too short. 
+* FIX - resolve critical errors with `firebase/php-jwt` library if `AUTH_SALT` WordPress constant is not set or too short.
 
 = 4.4.0 - 2026-01-10 =
 * NEW - plugin requires PHP 8.1+.
